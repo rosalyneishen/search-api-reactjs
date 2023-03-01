@@ -1,0 +1,51 @@
+.search-result {
+    &__container {
+        display: inline-flex;
+        float: left;
+        flex-wrap: wrap;
+    }
+
+    &__result {
+        border-radius: 7px;
+        display: inline-block;
+        margin: 20px;
+        padding: 15px;
+        min-width: 235px;
+        text-align: center;
+        flex: 1;
+        color:grey;
+    }
+
+    &__image {
+        height: 200px;
+    }
+
+    &__name {
+        font-size: 20px;
+    }
+    
+    &__price {
+        font-style: italic;
+    }
+
+    &__about {
+        color: grey;
+    }
+
+    &__tags {
+        margin: 10px;
+    }
+
+    &__tag {
+        border-radius: 7px;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid lightgray;
+    }
+
+}
+
+mark {
+    background-color: unset;
+    font-weight: bold;
+}
